@@ -2,4 +2,4 @@ function updateDriverWithKeyAndValue()
 
 function destructivelyUpdateDriverWithKeyAndValue()
 
-function 
+function deleteFromDriverByKey()
