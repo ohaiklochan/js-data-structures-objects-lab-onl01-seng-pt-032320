@@ -1,4 +1,4 @@
-const randomThings = {}
+var randomThings = {}
 
 function updateDriverWithKeyAndValue(object, key, value) {
   return Object.assign({}, obj, { [key]: value });
