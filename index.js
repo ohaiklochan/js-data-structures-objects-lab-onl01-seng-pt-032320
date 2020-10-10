@@ -1,7 +1,7 @@
 var randomThings = {}
 
-function updateObjectWithKeyAndValue(object, key, value) {
-  return Object.assign({}, object, { [key]: value })
+function updateDriverWithKeyAndValue(driver, key, value) {
+  return Driver.assign({}, driver, { [key]: value })
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
