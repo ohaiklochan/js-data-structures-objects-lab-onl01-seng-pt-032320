@@ -1,4 +1,4 @@
-var randomThings = {}
+var driver = {}
 
 function updateDriverWithKeyAndValue(driver, key, value) {
   return Driver.assign({}, object, { [key]: value })
@@ -10,7 +10,7 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 }
 
 function deleteFromDriverByKey(driver, object, key) {
-  const newObj = Object.assign({}, object)
+  const newObj = Driver.assign({}, object)
   delete newObj[key]
   return newObj
 }
