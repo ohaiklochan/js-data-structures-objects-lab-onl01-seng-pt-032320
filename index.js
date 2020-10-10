@@ -1,7 +1,7 @@
 var driver = {}
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  return Driver.assign({}, object, { [key]: value })
+  return Object.assign({}, object, { [key]: value })
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
@@ -10,7 +10,7 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 }
 
 function deleteFromDriverByKey(driver, object, key) {
-  const newObj = Driver.assign({}, object)
+  const newObj = Object.assign({}, object)
   delete newObj[key]
   return newObj
 }
