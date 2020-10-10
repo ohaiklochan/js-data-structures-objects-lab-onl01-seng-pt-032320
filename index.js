@@ -1,5 +1,7 @@
-function updateDriverWithKeyAndValue()
+function updateDriverWithKeyAndValue() {};
 
-function destructivelyUpdateDriverWithKeyAndValue()
+function destructivelyUpdateDriverWithKeyAndValue() {};
 
-function deleteFromDriverByKey()
+function deleteFromDriverByKey() {};
+
+function destructivelyDeleteFromDriverByKey() {};
